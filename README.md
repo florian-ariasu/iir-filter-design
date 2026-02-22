@@ -17,10 +17,7 @@
 
 - Understanding the mathematical derivations behind each filter prototype
 - Translating formulas from the paper into working Python code
-- Debugging numerical issues in pole placement and bilinear transform steps
 - Structuring and validating the experimental results
-
-**Learning approach:** The educational value came from working through each step of the design pipeline hands-on — from amplitude specifications all the way to time- and frequency-domain validation on real ECG data — guided by both the reference paper and AI explanations.
 
 ---
 
