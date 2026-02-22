@@ -120,7 +120,7 @@ Output figures will be saved in `src/sample_signal/` and `src/ecg_signal/`.
 ## References
 
 - S. K. Singh et al., "Computational Analysis of Butterworth and Chebyshev-I Filters Using Bilinear Transformation," *GRANTHAALAYAH*, vol. 10, 2022. [DOI: 10.29121/granthaalayah.v10.i6.2022.4571](https://doi.org/10.29121/granthaalayah.v10.i6.2022.4571)
-- G. B. Moody and R. G. Mark, "The Impact of the MIT-BIH Arrhythmia Database," *IEEE Engineering in Medicine and Biology Magazine*, vol. 20, no. 3, pp. 45–50, May–Jun. 2001. [Link](http://ecg.mit.edu/george/publications/mitdb-embs-2001.pdf)
+- G. B. Moody and R. G. Mark, "The Impact of the MIT-BIH Arrhythmia Database," *IEEE Engineering in Medicine and Biology Magazine*, vol. 20, no. 3, pp. 45–50, May–Jun. 2001.
 
 The full project paper is available in [`docs/butter_cheby_paper.pdf`](./docs/butter_cheby_paper.pdf).
 
