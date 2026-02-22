@@ -3,7 +3,24 @@
 > [!IMPORTANT]
 > This is a **project assignment** for the Signal Processing (PS — Procesarea Semnalelor) course (4th year, 1st semester).
 - The implementation follows the classical **analog-prototype → bilinear-transform** workflow, coded manually in Python without relying on high-level design wrappers.
-- The project was developed entirely **by hand**, validated on both a synthetic test signal and a real ECG recording.
+- The project was developed with **continuous AI assistance** throughout the entire development process.
+
+---
+
+## Academic Transparency & AI Disclosure
+
+**Relationship to the reference paper:** This project is a faithful manual implementation of the methodology described in Singh et al. (2022) — the reference paper listed below. It does not introduce new ideas or extend the original work. Every design step, every formula, and every experiment follows the paper directly and reproduces its results. The value here lies in the **manual implementation from scratch**, not in novel contributions.
+
+**What "manual" means here:** No high-level filter design wrappers (such as `scipy.signal.butter()` or `scipy.signal.cheby1()`) were used. Every step — order calculation, pole placement, bilinear transform, frequency prewarping — was implemented explicitly in Python from the mathematical definitions, following the paper's derivations.
+
+**AI usage:** This project was developed with AI assistance across all stages, including:
+
+- Understanding the mathematical derivations behind each filter prototype
+- Translating formulas from the paper into working Python code
+- Debugging numerical issues in pole placement and bilinear transform steps
+- Structuring and validating the experimental results
+
+**Learning approach:** The educational value came from working through each step of the design pipeline hands-on — from amplitude specifications all the way to time- and frequency-domain validation on real ECG data — guided by both the reference paper and AI explanations.
 
 ---
 
@@ -120,7 +137,7 @@ Output figures will be saved in `src/sample_signal/` and `src/ecg_signal/`.
 ## References
 
 - S. K. Singh et al., "Computational Analysis of Butterworth and Chebyshev-I Filters Using Bilinear Transformation," *GRANTHAALAYAH*, vol. 10, 2022. [DOI: 10.29121/granthaalayah.v10.i6.2022.4571](https://doi.org/10.29121/granthaalayah.v10.i6.2022.4571)
-- G. B. Moody and R. G. Mark, "The Impact of the MIT-BIH Arrhythmia Database," *IEEE Engineering in Medicine and Biology Magazine*, vol. 20, no. 3, pp. 45–50, May–Jun. 2001.
+- G. B. Moody and R. G. Mark, "The Impact of the MIT-BIH Arrhythmia Database," *IEEE Engineering in Medicine and Biology Magazine*, vol. 20, no. 3, pp. 45–50, May–Jun. 2001. [Link](http://ecg.mit.edu/george/publications/mitdb-embs-2001.pdf)
 
 The full project paper is available in [`docs/butter_cheby_paper.pdf`](./docs/butter_cheby_paper.pdf).
 
