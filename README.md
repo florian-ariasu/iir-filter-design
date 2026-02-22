@@ -1,9 +1,6 @@
-# Manual Design of Butterworth and Chebyshev-I Digital IIR Filters — with ECG Denoising
+# Butterworth & Chebyshev-I IIR Filter Design — with ECG Denoising
 
-> [!IMPORTANT]
-> This is a **project assignment** for the Signal Processing (PS — Procesarea Semnalelor) course (4th year, 1st semester).
-- The implementation follows the classical **analog-prototype → bilinear-transform** workflow, coded manually in Python without relying on high-level design wrappers.
-- The project was developed with **continuous AI assistance** throughout the entire development process.
+A manual implementation of Butterworth and Chebyshev-I low-pass digital IIR filters, following the classical **analog-prototype → bilinear-transform** workflow entirely from scratch in Python — no high-level design wrappers used. Filters are evaluated on both a synthetic test signal and a real ECG recording.
 
 ---
 
@@ -137,6 +134,12 @@ Output figures will be saved in `src/sample_signal/` and `src/ecg_signal/`.
 - G. B. Moody and R. G. Mark, "The Impact of the MIT-BIH Arrhythmia Database," *IEEE Engineering in Medicine and Biology Magazine*, vol. 20, no. 3, pp. 45–50, May–Jun. 2001.
 
 The full project paper is available in [`docs/butter_cheby_paper.pdf`](./docs/butter_cheby_paper.pdf).
+
+---
+
+## Development Notes
+
+This is a 4th-year Signal Processing course assignment, developed with continuous AI assistance throughout. It is a faithful reproduction of the Singh et al. (2022) methodology — the contribution lies in the manual from-scratch implementation, not in novel research.
 
 ---
 
