@@ -25,7 +25,7 @@ This project presents the complete manual design, implementation, and evaluation
 - A **synthetic test signal** composed of a low-frequency sinusoid, high-frequency sinusoidal interference, and additive white Gaussian noise.
 - A **real ECG recording** (record 100, MLII lead) from the MIT-BIH Arrhythmia Database.
 
-Magnitude, phase, and pole–zero responses are analyzed alongside a selectivity metric and region-of-convergence (ROC) indicator. Time- and frequency-domain results are used to compare the denoising performance of both filters.
+Magnitude, phase, and pole–zero responses are analyzed alongside a selectivity metric and region-of-convergence (ROC) indicator. Time and frequency-domain results are used to compare the denoising performance of both filters.
 
 ---
 
