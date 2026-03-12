@@ -22,8 +22,8 @@ A manual implementation of Butterworth and Chebyshev-I low-pass digital IIR filt
 
 This project presents the complete manual design, implementation, and evaluation of **Butterworth** and **Chebyshev-I** low-pass digital IIR filters, starting from amplitude and frequency specifications. The designed filters are then applied to:
 
-- A **synthetic test signal** composed of a low-frequency sinusoid, high-frequency sinusoidal interference, and additive white Gaussian noise.
-- A **real ECG recording** (record 100, MLII lead) from the MIT-BIH Arrhythmia Database.
+- A **synthetic test signal** composed of a low-frequency sinusoid, high-frequency sinusoidal interference, and additive white Gaussian noise
+- A **real ECG recording** (record 100, MLII lead) from the MIT-BIH Arrhythmia Database
 
 Magnitude, phase, and pole–zero responses are analyzed alongside a selectivity metric and region-of-convergence (ROC) indicator. Time and frequency-domain results are used to compare the denoising performance of both filters.
 
